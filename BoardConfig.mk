@@ -26,6 +26,7 @@ TARGET_BOOTLOADER_BOARD_NAME := G8342
 
 ### KERNEL
 TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-poplar_dsds_defconfig
+TARGET_KERNEL_CONFIG += vendor/debugfs.config
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar_dsds
 
