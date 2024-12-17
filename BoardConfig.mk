@@ -29,6 +29,10 @@ TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-poplar_dsds_defconfig
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar_dsds
 
+# Point to the prebuilt kernel
+TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
+
 ### PARTITIONS
 # See also /proc/partitions on the device
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5242880000
