@@ -26,7 +26,5 @@ PRODUCT_MODEL := G8342
 PRODUCT_MANUFACTURER := Sony
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=poplar_dsds \
-    PRIVATE_BUILD_DESC="G8342-user 9 47.2.A.11.228 1544251862 release-keys"
-
-BUILD_FINGERPRINT := Sony/G8342/G8342:9/47.2.A.11.228/1544251862:user/release-keys
+    BuildDesc="G8342-user 9 47.2.A.11.228 1544251862 release-keys" \
+    BuildFingerprint=Sony/G8342/G8342:9/47.2.A.11.228/1544251862:user/release-keys
